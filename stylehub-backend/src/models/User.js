@@ -133,4 +133,4 @@ userSchema.virtual('fullName').get(function() {
 // Asegurar que los virtuals se incluyan en JSON
 userSchema.set('toJSON', { virtuals: true });
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.models.User || mongoose.model('User', userSchema);
