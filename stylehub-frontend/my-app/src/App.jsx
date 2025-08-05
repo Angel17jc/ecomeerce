@@ -8,18 +8,18 @@ import Footer from './components/common/Footer';
 import ProtectedRoute from './components/common/ProtectedRoute';
 
 // Pages
-import HomePage from './pages/HomePage';
+import HomePage from './pages/homepage';
 import LoginPage from './pages/auth/LoginPage';
 import RegisterPage from './pages/auth/RegisterPage';
-import ProductsPage from './pages/products/ProductsPage';
-import ProductDetailPage from './pages/products/ProductDetailPage';
+import ProductsPage from './pages/products/productspage';
+import ProductDetailPage from './pages/products/productdetailpage';
 import CartPage from './pages/cart/CartPage';
 import CheckoutPage from './pages/cart/CheckoutPage';
-import OrdersPage from './pages/orders/OrdersPage';
-import OrderDetailPage from './pages/orders/OrderDetailPage';
-import ProfilePage from './pages/users/ProfilePage';
-import DashboardPage from './pages/admin/dashboardpage.jsx';
-import NotFoundPage from './pages/NotFoundPage';
+import OrdersPage from './pages/orders/orderspage';
+import OrderDetailPage from './pages/orders/orderdetailpage';
+import ProfilePage from './pages/users/profilepage';
+import DashboardPage from './pages/admin/DashboardPage';
+import NotFoundPage from './pages/notfoundpage';
 
 import './App.css';
 
